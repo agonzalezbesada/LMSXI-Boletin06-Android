@@ -1,3 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resources [
+<!ELEMENT resources (Style+)>
+<!ATTLIST resources xmlns:tools CDATA #FIXED ("http://schemas.android.com/tools")>
+<!ELEMENT Style (item*)>
+<!ATTLIST Style name #PCDATA #REQUIRED>
+<!ATTLIST Style parent #PCDATA #IMPLIED>
+<!ELEMENT item #PCDATA>
+<!ATTLIST item name #PCDATA #REQUIRED>
+<!ATTLIST item tools:targetApi #CDATA #IMPLIED>
+]>
+
+
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.Corrutinas" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
@@ -19,7 +32,7 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.Corrutinas.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Corrutinas.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
-    <style name="Theme.Corrutinas.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.Corrutinas.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 </resources>
