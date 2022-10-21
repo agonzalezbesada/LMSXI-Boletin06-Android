@@ -2,30 +2,30 @@
 
 <!DOCTYPE androidx.constraintlayout.widget.ConstraintLayout [ 
 <!ELEMENT androidx.constraintlayout.widget.ConstraintLayout (TextView+,Button+)>
-<!ATTLIST androidx.constraintlayout.widget.ConstraintLayout xmlns:android CDATA #FIXED ("http://schemas.android.com/apk/res/android")>
-<!ATTLIST androidx.constraintlayout.widget.ConstraintLayout xmlns:app CDATA #REQUIRED ("http://schemas.android.com/apk/res-auto")>
-<!ATTLIST androidx.constraintlayout.widget.ConstraintLayout xmlns:tools CDATA #REQUIRED ("http://schemas.android.com/tools")>
-<!ATTLIST androidx.constraintlayout.widget.ConstraintLayout android:layout_width CDATA #REQUIRED ("match_parent")>
-<!ATTLIST androidx.constraintlayout.widget.ConstraintLayout android:layout_height CDATA #REQUIRED ("match_parent")>
-<!ATTLIST androidx.constraintlayout.widget.ConstraintLayout tools:context CDATA #REQUIRED (".FirstFragment")>
+<!ATTLIST androidx.constraintlayout.widget.ConstraintLayout xmlns:android CDATA #REQUIRED>
+<!ATTLIST androidx.constraintlayout.widget.ConstraintLayout xmlns:app CDATA #REQUIRED>
+<!ATTLIST androidx.constraintlayout.widget.ConstraintLayout xmlns:tools CDATA #REQUIRED>
+<!ATTLIST androidx.constraintlayout.widget.ConstraintLayout android:layout_width CDATA #REQUIRED>
+<!ATTLIST androidx.constraintlayout.widget.ConstraintLayout android:layout_height CDATA #REQUIRED>
+<!ATTLIST androidx.constraintlayout.widget.ConstraintLayout tools:context CDATA #REQUIRED>
 <!ELEMENT TextView EMPTY>
-<!ATTLIST TextView android:id CDATA #REQUIRED ("@+id/textview_first")>
-<!ATTLIST TextView android:layout_width CDATA #REQUIRED ("wrap_content")>
-<!ATTLIST TextView android:layout_height CDATA #REQUIRED ("wrap_content")>
-<!ATTLIST TextView android:text CDATA #REQUIRED ("@string/hello_first_fragment")>
-<!ATTLIST TextView app:layout_constraintBottom_toTopOf CDATA #REQUIRED ("@id/button_first")>
-<!ATTLIST TextView app:layout_constraintEnd_toEndOf CDATA #REQUIRED ("parent")>
-<!ATTLIST TextView app:layout_constraintStart_toStartOf CDATA #REQUIRED ("parent")>
-<!ATTLIST TextView app:layout_constraintTop_toTopOf CDATA #REQUIRED ("parent")>
+<!ATTLIST TextView android:id CDATA #REQUIRED>
+<!ATTLIST TextView android:layout_width CDATA #REQUIRED>
+<!ATTLIST TextView android:layout_height CDATA #REQUIRED>
+<!ATTLIST TextView android:text CDATA #REQUIRED>
+<!ATTLIST TextView app:layout_constraintBottom_toTopOf CDATA #REQUIRED>
+<!ATTLIST TextView app:layout_constraintEnd_toEndOf CDATA #REQUIRED>
+<!ATTLIST TextView app:layout_constraintStart_toStartOf CDATA #REQUIRED>
+<!ATTLIST TextView app:layout_constraintTop_toTopOf CDATA #REQUIRED>
 <!ELEMENT Button EMPTY>
-<!ATTLIST Button android:id CDATA #REQUIRED ("@+id/button_first")>
-<!ATTLIST Button android:layout_width CDATA #REQUIRED ("wrap_content")>
-<!ATTLIST Button android:layout_height CDATA #REQUIRED ("wrap_content")>
-<!ATTLIST Button android:text CDATA #REQUIRED ("@string/next")>
-<!ATTLIST Button app:layout_constraintBottom_toBottomOf CDATA #REQUIRED ("parent")>
-<!ATTLIST Button app:layout_constraintEnd_toEndOf CDATA #REQUIRED ("parent")>
-<!ATTLIST Button app:layout_constraintStart_toStartOf CDATA #REQUIRED ("parent")>
-<!ATTLIST Button app:layout_constraintTop_toBottomOf CDATA #REQUIRED ("@id/textview_first")>
+<!ATTLIST Button android:id CDATA #REQUIRED>
+<!ATTLIST Button android:layout_width CDATA #REQUIRED>
+<!ATTLIST Button android:layout_height CDATA #REQUIRED>
+<!ATTLIST Button android:text CDATA #REQUIRED>
+<!ATTLIST Button app:layout_constraintBottom_toBottomOf CDATA #REQUIRED>
+<!ATTLIST Button app:layout_constraintEnd_toEndOf CDATA #REQUIRED>
+<!ATTLIST Button app:layout_constraintStart_toStartOf CDATA #REQUIRED>
+<!ATTLIST Button app:layout_constraintTop_toBottomOf CDATA #REQUIRED>
 ]>
 
 <androidx.constraintlayout.widget.ConstraintLayout 
